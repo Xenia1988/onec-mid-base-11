@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c7f8d7e-f6c5-4041-9647-6f8c4b5d14ab">
+  <producedTypes>
+    <objectType typeId="ae882c2b-9da2-460f-ae83-3a545b5a8dcf" valueTypeId="dbe7f7a7-6dc3-486f-8165-998ef47a9968"/>
+    <refType typeId="4af6c925-ae78-4342-a055-6132293673a1" valueTypeId="08dfb843-8cdf-47f4-a7af-1259ab9483bb"/>
+    <selectionType typeId="88148b9e-cd75-4e0c-8155-f61e9ceaca74" valueTypeId="280e65cb-bf4d-413c-808d-b66bddc95191"/>
+    <listType typeId="99addf70-61ab-47f5-8da6-6fa606777db0" valueTypeId="deaa4557-43da-40e1-bf8d-27f02d8fea70"/>
+    <managerType typeId="288d4ae7-e8e6-4213-8f53-612d1f2f6193" valueTypeId="18df3a24-9919-45f5-a8d5-44b93986f6da"/>
+  </producedTypes>
+  <name>ДП_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности(ДП)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДП_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДП_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
